@@ -1,4 +1,6 @@
 """
+Copyright 2019 Achin Jain (achinj@seas.upenn.edu)
+
 Interfaces AWS S3 with a local machine, can be used to:
 
     -- list all buckets

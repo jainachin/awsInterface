@@ -1,4 +1,6 @@
 """
+Copyright 2019 Achin Jain (achinj@seas.upenn.edu)
+
 Interfaces Elasticsearch with a local machine, can be used to:
 
     INDEX (methods for es index)
