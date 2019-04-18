@@ -1,4 +1,4 @@
-**awsInterface** allows you connect seamlessly a local machine to [Elasticsearch](https://www.elastic.co/) database running on an EC2 instance and S3 in AWS with minimal code. With the host name set to localhost, it will also work with Elasticsearch database running on a local machine.
+**awsInterface** allows you connect seamlessly a local machine to [Elasticsearch](https://www.elastic.co/) database running on an EC2 instance and S3 in AWS with minimal code in Python. With the host name set to localhost, it will also work with Elasticsearch database running on a local machine.
 
 #### Table of contents
 1. [esInterface](https://github.com/jainachin/awsInterface#esinterface)
@@ -8,7 +8,7 @@
 
 ### esInterface
 
-This is a wrapper built around the Python client for Elasticsearch: [elasticsearch](https://elasticsearch-py.readthedocs.io/en/master/). It provided a Python interface to read and write data to Elasticsearch, running on either an EC2 intance in AWS or a local machine. The following methods are supported:
+This is a wrapper built around the Python client for Elasticsearch: [elasticsearch](https://elasticsearch-py.readthedocs.io/en/master/). It provides a Python interface to read and write data to Elasticsearch, running on either an EC2 intance in AWS or a local machine. The following methods are supported:
 
     INDEX: defined methods for es index
     -- create_index new index
@@ -79,7 +79,7 @@ es.delete(index_name='your_index', time_start='t1_as_string', time_end='t2_as_st
 
 ### s3Interface
 
-This is a wrapper built around the Python client for S3: [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html). It provided a Python interface to read and write data to S3. The following methods are supported:
+This is a wrapper built around the Python client for S3: [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html). It provides a Python interface to read and write data to S3. The following methods are supported:
 
     -- list all buckets
     -- create a new bucket
